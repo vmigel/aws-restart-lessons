@@ -1,0 +1,3 @@
+Hello world here we come!
+This is the first test with git for class tutoring
+Thanks to Vasyl
