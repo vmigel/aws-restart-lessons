@@ -1,0 +1,16 @@
+# Initialize a new Git repository
+git init
+
+# Create a new file
+echo "Hello, World!" > hello.txt
+
+# Add the file to the staging area
+git add hello.txt
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Optionally, you can set up a remote repository and push your changes
+# Example:
+# git remote add origin <remote_repository_url>
+# git push -u origin master
