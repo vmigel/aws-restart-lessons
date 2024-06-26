@@ -10,5 +10,6 @@ ssh-keygen
 ```
 Go to your file manager and find public ssh key
 ```
-C:\Users\your-user\.ssh
+C:\Users\your-user\.ssh\id_rsa.pub
 ```
+Open it with text editor (vim or Notepad.exe), and copy whole text from this file
