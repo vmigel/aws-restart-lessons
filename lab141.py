@@ -1,3 +1,7 @@
+import time
+start_time = time.time()
+
+
 def is_prime(n):
     """Check if a number is a prime number."""
     if n <= 1:
@@ -29,7 +33,7 @@ def save_primes_to_file(primes, file_path):
 
 def main():
     start = 1
-    end = 250
+    end = 2500000
     file_path = 'results.txt'  # Update this to the desired file path
 
     # Get the list of prime numbers
@@ -45,3 +49,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+print("--- %s seconds ---" % (time.time() - start_time))
